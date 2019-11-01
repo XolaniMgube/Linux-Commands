@@ -1,0 +1,209 @@
+Task 1..................................................................
+
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ ls
+ Desktop        Documents   Music      Public      Videos
+'[directory]'   Downloads   Pictures   Templates   workspace1
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ pwd
+/home/xolani
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ mkdir workspace
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ cd workspace
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ ls
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ touch README.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ cp README.md CHANGELOG.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ ls
+CHANGELOG.md  README.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ ^C
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$
+
+
+
+Task 2....................................................................
+
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ pwd
+/home/xolani
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ cd workspace
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ ls
+CHANGELOG.md  README.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ touch exercise.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ ls
+CHANGELOG.md  exercise.md  README.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ mv exercise.md /tmp
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ cd ..
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ cd ..
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:/home$ cd ..
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:/$ pwd
+/
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:/$ cd tmp
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:/tmp$ ls
+'Atom Crashes'
+ atom-f827798dbe94.sock
+ config-err-w3YISD
+ exercise.md
+ lu28075tb8d4.tmp
+ mintUpdate
+ net-export
+ OSL_PIPE_1000_SingleOfficeIPC_86fdadbba114c382c927827eea2c2abf
+'Slack Crashes'
+ ssh-vtAhqQSdcYuf
+ systemd-private-de1b9c8ef25d4b52981dd325207950a8-colord.service-X61rFQ
+ systemd-private-de1b9c8ef25d4b52981dd325207950a8-rtkit-daemon.service-8LsFop
+ systemd-private-de1b9c8ef25d4b52981dd325207950a8-systemd-resolved.service-YGbOqf
+ systemd-private-de1b9c8ef25d4b52981dd325207950a8-systemd-timesyncd.service-ew7M41
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:/tmp$ ^C
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:/tmp$
+
+
+
+
+Task 3...............................................................
+
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ pwd
+/home/xolani
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ cd workspace
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ touch umuzi.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ touch recruits.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ touch cohort.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ pico umuzi.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ pico recruits.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ pico cohort.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ cat umuzi.md recruits.md cohort.md
+Umuzi Academy is a nice place to be
+I Became an Umuzi recruit in October 2019
+I am cohort 17
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ cat umuzi.md recruits.md cohort.md > summary.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ cat summary.md
+Umuzi Academy is a nice place to be
+I Became an Umuzi recruit in October 2019
+I am cohort 17
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ cat >> summary.md
+
+
+
+
+Task 4..............................................................
+
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ locate umuzi.md
+/home/xolani/workspace/umuzi.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ locate umuzi.md >> cat > workspace/search_results.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ cd workspace
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ ls
+CHANGELOG.md  README.md    search_results.md  umuzi.md
+cohort.md     recruits.md  summary.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ cat search_results.md
+/home/xolani/workspace/umuzi.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$
+
+Task 5.............................................................
+
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ pwd
+/home/xolani
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ ls
+ Desktop        Downloads   Public      workspace
+'[directory]'   Music       Templates   workspace1
+ Documents      Pictures    Videos
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ cd Documents
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/Documents$ touch pad.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/Documents$ cd ../Desktop
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/Desktop$ mkdir work
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/Desktop$ cd work
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/Desktop/work$ cp ../../Documents/pad.md pad_copy.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/Desktop/work$ ls
+pad_copy.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/Desktop/work$ locate updatedb
+/etc/updatedb.conf
+/etc/alternatives/updatedb
+/etc/alternatives/updatedb.8.gz
+/usr/bin/updatedb
+/usr/bin/updatedb.mlocate
+/usr/share/man/man5/updatedb.conf.5.gz
+/usr/share/man/man8/updatedb.8.gz
+/usr/share/man/man8/updatedb.mlocate.8.gz
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/Desktop/work$ cd -
+/home/xolani/Desktop
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/Desktop$ locate pad_copy.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/Desktop$
+
+
+
+
+Task 6.........................................................
+
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/b8324a5dc995df92_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/3fdb2d71cbbf4a14_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/a5f09a912546969f_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/5c8669cd562877f7_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/0da658fcaed15297_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/42e5f00c7fba3a96_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/15f46fe431703424_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/de5cf1f877a85d0e_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/2138d3d23e33e2f5_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/efc3d48f4f9a4106_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/fe92d4294ece4792_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/086e3a981dd97683_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/eca492cf69fb2f49_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/4145645a0352288a_0
+/home/xolani/.cache/google-chrome/Default/Code Cache/js/dcc4dac02d8c9348_0
+/home/xolani/.cache/flatpak/system-cache
+/home/xolani/.cache/flatpak/system-cache/summaries
+/home/xolani/.cache/flatpak/system-cache/summaries/flathub.sig
+/home/xolani/.cache/flatpak/system-cache/summaries/flathub
+/home/xolani/Desktop
+/home/xolani/Desktop/work
+/home/xolani/Desktop/work/pad_copy.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ clear
+
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ cd ~
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ find ~ -type f -name "*.pdf"
+/home/xolani/Downloads/Mathapelo-Motloung-CV.pdf
+/home/xolani/Downloads/Xolani Mgube Assessment Agreement IT.pdf
+/home/xolani/.local/share/Trash/files/Assessment Agreement IT.pdf
+/home/xolani/Desktop/Research & User Interviews.pdf
+/home/xolani/Desktop/Incredible six _ Portfolio Piece.pdf
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ find ~ -type f -name "*.pdf" >> cat > workspace/find_results.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ cd workspace
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ ls
+cat           find_results.md  search_results.md
+CHANGELOG.md  README.md        summary.md
+cohort.md     recruits.md      umuzi.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ cat find_results.md
+/home/xolani/Downloads/Mathapelo-Motloung-CV.pdf
+/home/xolani/Downloads/Xolani Mgube Assessment Agreement IT.pdf
+/home/xolani/.local/share/Trash/files/Assessment Agreement IT.pdf
+/home/xolani/Desktop/Research & User Interviews.pdf
+/home/xolani/Desktop/Incredible six _ Portfolio Piece.pdf
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$ find . -mtime -1 -print
+.
+./umuzi.md
+./find_results.md
+./search_results.md
+./cat
+./recruits.md
+./summary.md
+./cohort.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/workspace$
+
+
+
+
+Task 7...............................................................
+
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ clear
+
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ nano
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ nano my_bio.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ ls
+ cat            Documents   Pictures    Videos
+ Desktop        Downloads   Public      workspace
+'[directory]'   Music       Templates   workspace1
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ nano my_bio.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ ls
+ cat            Downloads   Public      workspace1
+ Desktop        Music       Templates
+'[directory]'   my_bio.md   Videos
+ Documents      Pictures    workspace
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ mkdir my_files
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ mv my_bio.md my_files
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~$ cd my_files
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/my_files$ ls
+my_bio.md
+xolani@xolani-HP-Compaq-6000-Pro-MT-PC:~/my_files$
